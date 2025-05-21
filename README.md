@@ -12,3 +12,7 @@ The sheer volume of online courses and learning materials can be overwhelming. L
 * Find a path that respects their existing knowledge and learning preferences.
 
 Milestone aims to solve this by providing a clear, structured, and personalized roadmap for learning.
+
+## 💾 Data
+The data that is being used for training in this project was acquired from kaggle. It includes various datasets about
+online courses and course enrollments, surveys and general data about people's education.

@@ -1,0 +1,60 @@
+# --- PyCharm/IDE Specific ---
+.idea/                  # PyCharm project files (excluding shared settings)
+*.iml                   # IntelliJ/PyCharm module files
+*.ipr                   # IntelliJ/PyCharm project files
+*.iws                   # IntelliJ/PyCharm workspace files
+
+# --- Python Specific ---
+__pycache__/            # Python bytecode cache
+*.pyc                   # Compiled Python files
+.Python                 # Python virtual environment directory
+env/                    # Common virtual environment directory
+venv/                   # Common virtual environment directory
+.venv/                  # Common virtual environment directory
+build/                  # Build artifacts
+dist/                   # Distribution packages
+*.egg-info/             # Python egg info
+.eggs/                  # Python eggs
+.tox/                   # Tox test environments
+.pytest_cache/          # Pytest cache directory
+.ipynb_checkpoints/     # Jupyter Notebook checkpoints
+.mypy_cache/            # MyPy static analysis cache
+.ruff_cache/            # Ruff linter cache
+
+# --- Machine Learning Specific ---
+# Models
+models/                 # Directory for trained models
+*.pkl                   # Python pickle files (for saving models/objects)
+*.joblib                # Joblib files (alternative to pickle)
+*.h5                    # HDF5 files (common for Keras/TensorFlow models)
+*.hdf5                  # HDF5 files
+*.pth                   # PyTorch model checkpoints
+*.pt                    # PyTorch model checkpoints
+*.onnx                  # ONNX models
+*.bin                   # Binary files (e.g., for Hugging Face models)
+*.model                 # Generic model file extension
+
+# Experiment Logs & Artifacts
+experiments/            # Directory for MLflow runs, TensorBoard logs, etc.
+mlruns/                 # MLflow tracking server runs
+runs/                   # Another common directory for experiment logs
+tensorboard/            # TensorBoard logs
+checkpoints/            # Model checkpoints during training
+
+# Large Numerical Arrays
+*.npy                   # NumPy array files
+*.npz                   # Compressed NumPy array files
+
+# --- Environment Variables / Credentials ---
+.env                    # Environment variables (contains sensitive info)
+.env.* # Any file starting with .env.
+!*.env.example          # But keep example environment files
+
+# --- Logs & Temporary Files ---
+*.log                   # Log files
+*.temp                  # Temporary files
+*.tmp                   # Temporary files
+*.swp                   # Vim swap files
+*~                      # Backup files (e.g., from Emacs)
+.DS_Store               # macOS specific hidden files
+Thumbs.db               # Windows specific hidden files
